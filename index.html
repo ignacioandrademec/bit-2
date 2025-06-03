@@ -12,7 +12,7 @@
     <noscript>Javascript is required</noscript>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
             <div class="container-fluid">
 
                 <a class="navbar-brand me-3" href="#">BOGOTA INSTITUTE OF TECHNOLOGY</a>
@@ -25,11 +25,14 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PENSUM</a>
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">NUESTROS SERVICIOS</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">CUERPO ESTUDIANTIL</a>
-                    </li>
+                    </li>                    
                     <li class="nav-item">
                     <a class="nav-link" href="#">CUERPO DOCENTE</a>
                     </li>
@@ -41,36 +44,279 @@
 
     <main>
 
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./assets/estudiantes1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fontsizecarrusel">DIVIERTE</h5>
+
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            </div>
+            <div class="carousel-item">
+            <img src="./assets/estudiantes2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fontsizecarrusel">APRENDE</h5>
+
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./assets/estudiantes3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fontsizecarrusel">APLICA</h5>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
         </div>
 
 
+        <div class="container-fluid container divbit">
+            <h2 class="titleFundador">Bogotá Institute of Technology</h2>
+            <p class="parrafoFundador">En BIT, creemos que cada estudiante tiene el poder de transformar su vida a través del conocimiento. Por eso, más que enseñar a programar, cultivamos una mentalidad de crecimiento, creatividad y perseverancia. Estamos comprometidos con acompañarte en cada paso, brindándote no solo las herramientas técnicas más actuales, sino también el apoyo humano que necesitas para confiar en ti y desarrollar todo tu potencial. Aquí no solo aprendes a escribir código, aprendes a construir el futuro con tus propias manos.</p>
+
+            <div class="row text-center divLogos">
+                <div class="col">
+                    <h4>Bogotá Institute of Technology</h4>
+                    <img class="imageFundador logos"  src="./assets/favicon.ico" alt="fotoFundador">
+                </div>
+                <div class="col">
+                    <h4>En alianza con</h4>
+                    <img class="logos" src="./assets/logoibero.jpg" alt="firmaFundador">
+
+                </div>
+            </div>
+        </div>
+
+
+          
+        <div class="container-fluid text-center boxCarruselServices">
+            <div>
+                <h1 class="titleServices">NUESTROS SERVICIOS</h1>
+            </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="element text-center">
+                                    <h2>Programas Intensivos en Desarrollo Web</h2>
+                                    <p>Nuestros bootcamps de desarrollo web están diseñados para llevarte de cero a experto en pocos meses. Aprenderás a crear sitios y aplicaciones modernas desde el primer día, con el acompañamiento de mentores expertos y un enfoque totalmente práctico.</p>
+
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <div class="element2 text-center">
+                                    <h2>Cursos de Programación desde Cero</h2>
+                                    <p>Si nunca has escrito una línea de código, estás en el lugar correcto. Nuestros cursos introductorios están pensados para que cualquier persona, sin importar su edad o experiencia, pueda comenzar su camino en la tecnología con confianza y motivación.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="element text-center">
+                                    <h2>Ciencia de Datos e Inteligencia Artificial</h2>
+                                    <p>En BIT, te preparamos para dominar el lenguaje de los datos. A través de proyectos reales, aprenderás a analizar, interpretar y visualizar información, además de aplicar modelos de IA que ya están transformando industrias en todo el mundo.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="element2 text-center">
+                                    <h2>Comunidad de Apoyo y Networking Tecnológico</h2>
+                                    <p>En BIT no estudias solo. Formas parte de una comunidad activa de estudiantes, egresados y profesionales de la industria. Aquí se comparten oportunidades, se crean alianzas y se construyen redes que impulsan tu crecimiento personal y profesional.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="element text-center">
+                                    <h2>Mentorías Personalizadas y Acompañamiento Continuo</h2>
+                                    <p>Sabemos que aprender a programar puede ser un reto, por eso te acompañamos de cerca. Contamos con mentores que te guían paso a paso, resuelven tus dudas y te ayudan a construir una ruta clara hacia tus metas profesionales.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="element2 text-center">
+                                    <h2>Bolsa de Empleo y Conexión con Empresas del Sector</h2>
+                                    <p>Queremos que tu formación se traduzca en oportunidades reales. Por eso, conectamos a nuestros egresados con empresas aliadas que valoran el talento emergente. En BIT, tu carrera no termina al graduarte: apenas comienza.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+         <!-- FINAL CARRUSEL SERVICIOS -->
+        
 
     </main>
 
 
     <footer>
+        <!-- INICIO NUESTRA TRAYECTORIA -->
+        <div class="nuestraTrayectoria"><h1 class="textNuestratrayectoria">NUESTRA TRAYECTORIA</h1></div>
+        <div class="container text-center">
+            <div class="row">
 
 
+                <div class="col-xl-2 col-lg-2 col-md-12"></div>
+
+                <div class="col-xl-2 col-lg-2 col-md-6">
+                    <div><i class="bi bi-clock-history iconTrayectoria"></i></div>
+                    <h2>15</h2>
+                    <div>AÑOS DE HISTORIA</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6">
+                    <div><i class="bi bi-buildings iconTrayectoria"></i></div>
+                    <h2>578</h2>
+                    <div>CASOS EXITOSOS</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6">
+                    <div><i class="bi bi-person-fill-up iconTrayectoria"></i></div>
+                    <h2>244</h2>
+                    <div>CLIENTES</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6">
+                    <div><i class="bi bi-terminal-fill iconTrayectoria"></i></div>
+                    <h2>89</h2>
+                    <div>DESARROLLOS</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6"></div>
+            </div>
+        </div>
+        <!-- FINAL NUESTRA TRAYECTORIA -->
+
+        <!-- INICIO CONTÁCTENOS -->
+        <div class="titleContact">CONTÁCTENOS</div>
+
+
+        <div class="container-fluid text-center containerContact">
+            <div class="row">
+
+<!-- ---------------------------------------------------------------------- -->
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3"></div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <p class="parrafoContact">
+                        En AG PolarTech, valoramos tu tiempo y tu confianza. Cada solicitud es atendida por un equipo comprometido con brindarte soluciones HVAC de alta calidad, con atención personalizada y respuesta oportuna.<br> <br> Déjanos tus datos y muy pronto nos pondremos en contacto contigo para ayudarte a crear un ambiente más confortable, eficiente y seguro.
+                    </p>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3"></div>
+
+<!-- ---------------------------------------------------------------------- -->
+
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2"></div>
+
+                <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8">
+                    <div class="boxForm">
+                        <i class="bi bi-person-fill userIcon"></i>
+                        <form id="contactForm2">
+                            <div class="mb-3">
+                                <label for="nameInput" class="form-label">Nombre y Apellidos</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu Nombre y Apellido" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu Correo Electrónico" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="textareaInput" class="form-label">Solicitud</label>
+                                <textarea placeholder="Escribe tu Solicitud"  class="form-control" id="textareaInput" rows="3" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar Información</button>
+                        </form> 
+                    </div>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2"></div>
+            </div>
+        </div>
+
+        <!-- FINAL CONTÁCTENOS -->
+
+        <!-- INICIO PIE DE PAGINA -->
+
+        <div class="container-fluid containerFooter text-center">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-sm-12"></div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 containerPolar">
+                    <img class="logo2" src="./assets/Isotipo.png" alt="isotipo">
+                    <h4 class="titleFinalContact">Contáctenos</h4>
+                    <div class="row">
+                        <div class="col-lx-2 col-lg-2 col-md-12 col-sm-6"><i class="iconRedes bi bi-facebook"></i></div>
+                        <div class="col-lx-2 col-lg-2 col-md-12 col-sm-6"><i class="iconRedes bi bi-instagram"></i></div>
+                        <div class="col-lx-2 col-lg-2 col-md-12 col-sm-6"><i class="iconRedes bi bi-twitter"></i></div>
+                        <div class="col-lx-2 col-lg-2 col-md-12 col-sm-6"><i class="iconRedes bi bi-whatsapp"></i></div>
+                        <div class="col-lx-4 col-lg-4 col-md-12 col-sm-6"></div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12"></div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                    <h2 class="titleFooter">SERVICIOS</h2>
+                    <ul>
+                        <li>Instalación</li>
+                        <li>Mantenimiento</li>
+                        <li>Asesoría</li>
+                        <li>Reparación HVAC</li>
+                        <li>Diseño HVAC</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                    <h2 class="titleFooter">PRODUCTOS</h2>
+                    <ul>
+                        <li>Chiller</li>
+                        <li>Equipos de Presición</li>
+                        <li>Equipos SPLIT</li>
+                        <li>Equipos MINISPLIT</li>
+                        <li>Equipo de Ventilación</li>
+                        <li>Torres de Enfriamiento</li>
+                        <li>Equipos tipo Paquete</li>
+                        <li>Equipos VRF</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+                    <h2 class="titleFooter">CONTACTOS</h2>
+                    <ul>
+                        <li>(+57) 321 496 5878</li>
+                        <li>(+57) 322 896 4697</li>
+                        <li>(+57) 320 578 2398</li>
+                    </ul>
+                </div>
+                <div class="col-xl-1 col-lg-2 col-md-2 col-sm-12"></div>
+            </div>
+        </div>
+
+        <!-- FINAL PIE DE PAGINA -->
 
     </footer>
 

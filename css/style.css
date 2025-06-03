@@ -5,3 +5,148 @@ body {
 .logobit {
     width: 250px;
 }
+.logos {
+    width: 200px;
+}
+
+.divLogos {
+    padding-top: 50px;
+}
+
+.divbit {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fontsizecarrusel {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(55, 55, 55);
+    background-color: #d4d4d4;
+    padding-left: 0px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.element {
+    flex: 1 0 auto;
+    background-color: #2E2E2E;
+    margin: 30px 50px;
+    width: 340px;
+    height: 500px;
+    padding: 80px 50px 50px 50px;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.element2 {
+    flex: 1 0 auto;
+    margin: 30px 50px;
+    background-color: #7d7d7d;
+    width: 340px;
+    height: 500px;
+    padding: 80px 50px 50px 50px;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.boxCarruselServices {
+    background-color: #D9D9D9;
+    padding-bottom: 80px;
+}
+
+.titleServices {
+    padding: 30px 0px 30px 0px;
+}
+
+/* INICIO ESTILOS DEL PIE DE PAGINA O FOOTER */
+
+.nuestraTrayectoria {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.textNuestratrayectoria {
+    font-size: 25px;
+}
+.iconTrayectoria {
+    font-size: 70px;
+}
+
+
+.titleContact {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    margin: 50px 0 0 0;
+    background-color: #262626;
+    color: white;
+}
+
+.containerContact {
+    padding: 50px 0 50px 0;
+    background-color: #2E2E2E;
+    color: white;
+    
+}
+
+.parrafoContact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.boxForm {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: 30px;
+    background-color: #e2e2e2;
+    color: black;
+}
+
+.form-label2 {
+    margin-top: 20px;
+}
+
+.form-select {
+    margin-top: 30px;
+}
+
+.formcheck1 {
+    margin-top: 30px;
+}
+
+.parrafoContact1 {
+    margin-top: 300px;
+}
+.userIcon {
+    font-size: 70px;
+    color: black;
+}
+
+
+.containerFooter {
+    padding: 100px 0 100px 0;
+    background-color: #262626;
+    color: white;
+}
+
+/* FINAL ESTILOS DEL FOOTER */
+
+.titleFinalAG {
+    font-size: 30px;
+}
+
+.titleFinalContact {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.iconRedes {
+    font-size: 40px;
+}
+
+.titleFooter {
+    font-size: 15px;
+}
+
