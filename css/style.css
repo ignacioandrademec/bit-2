@@ -6,7 +6,7 @@ body {
     width: 250px;
 }
 .logos {
-    width: 200px;
+    width: 250px;
 }
 
 .divLogos {
@@ -150,3 +150,6 @@ body {
     font-size: 15px;
 }
 
+.logo2 {
+    width: 200px;
+}
