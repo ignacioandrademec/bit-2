@@ -100,7 +100,7 @@ function generarInfo2 (){
                         <p class="card-text"><small class="text-body-secondary">Enlace de Github : </small></p>
                     </div>
                     <div class="card-body">
-                        <a target="_blank" href="https://github.com/javi0b01" class="card-link">Github del Javier Andrés</a>
+                        <a target="_blank" href="https://github.com/javi0b01" class="card-link">Github del Docente Javier Andrés</a>
                     </div>
                     
                 </div>
